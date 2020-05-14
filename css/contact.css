@@ -1,0 +1,12 @@
+h1 {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.form-container {
+	width: 80%;
+	margin: 50px auto;
+}
+.form-container button {
+	padding: 10px 40px;
+}
