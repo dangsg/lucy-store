@@ -1,6 +1,6 @@
 <header>
 	<nav class="navbar navbar-expand-lg navbar-dark" id="navbar-top">
-		<a class="navbar-brand" href="#">
+		<a class="navbar-brand" href="./index.html">
 			<img src="./images/logo.png" alt="logo" id="logo-photo"> 
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,11 +15,8 @@
 				<li class="nav-item">
 					<a class="nav-link" href="./intro.html">Giới thiệu</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="./price.html">Bảng giá</a>
-				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<a class="nav-link dropdown-toggle" href="./product.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Sản phẩm
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -30,13 +27,45 @@
 					</div>
 				</li>
 				<li class="nav-item">
+					<a class="nav-link" href="./price.html">Bảng giá</a>
+				</li>
+				<li class="nav-item">
 					<a class="nav-link" href="./contact.html">Liên hệ</a>
 				</li>
+				
 			</ul>
+			<div class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="loginDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Đăng nhập
+				</a>
+				<div class="dropdown-menu">
+					<form class="px-4 py-3">
+					  <div class="form-group">
+						<label for="exampleDropdownFormEmail1">Email address</label>
+						<input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+					  </div>
+					  <div class="form-group">
+						<label for="exampleDropdownFormPassword1">Password</label>
+						<input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+					  </div>
+					  <div class="form-check">
+						<input type="checkbox" class="form-check-input" id="dropdownCheck">
+						<label class="form-check-label" for="dropdownCheck">
+						  Remember me
+						</label>
+					  </div>
+					  <button type="submit" class="btn btn-primary">Sign in</button>
+					</form>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">New around here? Sign up</a>
+					<a class="dropdown-item" href="#">Forgot password?</a>
+				  </div>
+				</div>
 			<form class="form-inline my-2 my-lg-0">
 				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Tìm kiếm">
 				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="nav-search-button">Tìm kiếm</button>
 			</form>
+			
 		</div>
 	</nav>
 </header>

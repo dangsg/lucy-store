@@ -123,6 +123,9 @@ main > div {
 }
 
 /*Product category*/
+#product-category-container .card {
+	margin-bottom: 40px;
+}
 #product-category-container .card-body {
 	position: absolute;
 	bottom: 0;
